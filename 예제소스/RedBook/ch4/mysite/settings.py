@@ -56,7 +56,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],
+        'DIRS': [BASE_DIR / 'templates'], # template 디렉토리 장고가 찾을 수 있도록 해줌.
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
